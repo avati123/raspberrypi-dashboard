@@ -1,0 +1,10 @@
+node_modules
+.github
+bin
+.tmp
+dist
+LICENSE
+neutralino.config.json
+neutralinojs.log
+.DS_Store
+icons
