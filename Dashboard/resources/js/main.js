@@ -16,6 +16,7 @@ function displayResults (response) {
     let feels_like = parseInt(response.main.feels_like);
     let icon = response.weather[0].icon;
     let description = response.weather[0].description;
+    description = description.
     console.log(temp);
     console.log(feels_like);
     console.log(icon);
