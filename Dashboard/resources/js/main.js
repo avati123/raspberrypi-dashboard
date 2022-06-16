@@ -1,3 +1,4 @@
+
 function onWindowClose() {
     Neutralino.app.exit();
 };
@@ -23,7 +24,6 @@ function displayResults (response) {
     htemp.innerHTML = `It is ${temp}°C`;
     document.getElementById("icon").src = `https://openweathermap.org/img/wn/${icon}.png`
     document.getElementById("description").innerText = description;
-
 }
 getWeather = () => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apikey}&units=metric`)

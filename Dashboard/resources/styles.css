@@ -8,7 +8,7 @@
 
 body {
     background-color: rgb(196, 194, 194);
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 *{
@@ -37,9 +37,13 @@ body {
     position: absolute;
     background-color: rgb(255, 255, 255);
     width: 385px;
-    height: 235px;
+    height: 70px;
+    left: 420px;
     top: 40px;
-    
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(143, 139, 250), rgb(255, 126, 229), rgb(248, 120, 111));
 }
 
 
@@ -63,11 +67,13 @@ body {
 
 #location{
     position: absolute;
+    left: 4px;
 }
 
 #temp{
     position: absolute;
-    top: 40px;
+    top: 20px;
+    left: 4px;
 }
 
 #feels-like{
@@ -77,13 +83,13 @@ body {
 
 #icon{
     position: absolute;
-    left: 100px;
-    top: 50px;
-    -webkit-filter: invert(1);
-    filter: invert(1);
+    left: 335px;
+    top: 0px;
 }
 
 #description{
     position: absolute;
-    top: 110px;
+    left: 150px;
+    text-transform: capitalize;
+
 }
