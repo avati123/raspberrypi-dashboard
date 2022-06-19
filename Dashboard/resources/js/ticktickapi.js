@@ -15,12 +15,16 @@ async function getInfo() {
     await page.type('#password', 'Ashton');
     await page.click('#app > div > div > div.cardSection__UNNlC > section:nth-child(1) > button')
     console.log("Reached App")
+    await page.waitForTimeout(5000);
     await page.screenshot({path: 'screenshots/final1.png'});
+    const tasks = await page.$x('//*[@id="task-list-content"]/div/li[1]', el => tasks.textContent);
+    console.log(tasks);
     await browser.close();
     };
 
 // Getting infomation from element one using css selector path
 
+getInfo()
 
 
     

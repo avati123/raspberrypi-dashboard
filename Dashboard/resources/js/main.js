@@ -16,11 +16,6 @@ function displayResults (response) {
     let feels_like = parseInt(response.main.feels_like);
     let icon = response.weather[0].icon;
     let description = response.weather[0].description;
-    description = description.
-    console.log(temp);
-    console.log(feels_like);
-    console.log(icon);
-    console.log(description);
     document.getElementById("feels-like").innerHTML = `Feels like ${feels_like}°C`;
     htemp.innerHTML = `It is ${temp}°C`;
     document.getElementById("icon").src = `https://openweathermap.org/img/wn/${icon}.png`
@@ -32,10 +27,7 @@ getWeather = () => {
         return response.json();
 
     }).then(displayResults)
-}
-
-
-
+} 
 
 getWeather();
 displayResults();

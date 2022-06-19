@@ -26,20 +26,20 @@ body {
 #ticktick{
     position: absolute;
     background-color: bisque;
-    left: 420px;
+    left: 30px;
     top: 120px;
     height: 210px;
-    width: 493px;
+    width: 390px;
     align-items: center;
 }
 
 #weather{
     position: absolute;
     background-color: rgb(255, 255, 255);
-    width: 385px;
-    height: 70px;
+    width: 350px;
+    height: 90px;
     left: 420px;
-    top: 40px;
+    top: 20px;
     font-size: 10px;
     font-weight: 100;
     color: rgb(255, 255, 255);
@@ -66,30 +66,32 @@ body {
 }
 
 #location{
-    position: absolute;
-    left: 4px;
+    position: fixed;
+    left: 425px;
+    top: 10px;
 }
 
 #temp{
-    position: absolute;
-    top: 20px;
-    left: 4px;
+    position: fixed;
+    top: 30px;
+    left: 425px;
 }
 
 #feels-like{
-    position: absolute;
-    top: 80px;
+    position: fixed;
+    top: 50px;
+    left: 425px;
 }
 
 #icon{
     position: absolute;
-    left: 335px;
-    top: 0px;
+    left: 300px;
+    top: -5px;
 }
 
 #description{
-    position: absolute;
-    left: 150px;
+    position: fixed;
+    left: 425px;
     text-transform: capitalize;
-
+    top: 70px;
 }
